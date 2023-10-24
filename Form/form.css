@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(146, 207, 241);
+}
+.survayform h3{
+    text-align: center;
+    size: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+.main-row{
+    border: 2px solid black;
+    width: 600px;
+    background-color: white;
+}
+.input-field{
+    padding: 10px;
+}
+.input-field .input-gender label{
+    size: 15px;
+}
+.input-field input{
+    width: 100%;
+}
+.input-field select{
+    width: 100%;
+}
+input::placeholder{
+    size: 10px;
+    opacity: 0.1;
+}
+.input-field select::placeholder{
+    opacity: 0.1;
+}
+#button2{
+    float: right;
+}
+.button-field{
+    margin-bottom: 10px;
+}
+#button1{
+    background-color: green;
+    width:200px;
+    border-radius: 15px;
+    border: none;
+}
+#button2{
+    background-color:rgb(146, 207, 241);
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+}
